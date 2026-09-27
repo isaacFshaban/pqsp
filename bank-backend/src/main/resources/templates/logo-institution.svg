@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none">
+  <!--
+    Institution account-type mark for the payslip PDF, v3. See InstitutionMarkIcon.tsx (the
+    frontend version of this mark, same geometry) for the full version history: v1 was a
+    straight-edged polygon shield; v2 refined it into a curved shield with a faint inner
+    ring; v3 (this one) turned that ring gold, added a gold "keystone" dot at the top, and
+    added a keyhole detail at the shield's point — a literal security signifier alongside
+    the shield's more abstract one, and a second colour family (navy + gold, the classic
+    crest/medal pairing) rather than blue/teal alone. Navy #16324F for the shield and
+    interior glyph (matches the payslip's existing cool-neutral text colours); #B08D57 gold
+    for the ring/keystone/keyhole, deliberately distinct from this app's warning amber so it
+    can't be mistaken for that colour's status meaning. Replaces cardLogo.png, which was the
+    real Bank of Tanzania emblem (see PdfGenerationService.java's class comment).
+  -->
+  <path d="M4.5,6.2 C4.5,4.6 5.6,3.7 7.2,3.35 C9.3,2.75 14.7,2.75 16.8,3.35 C18.4,3.7 19.5,4.6 19.5,6.2 L19.5,10.8 C19.5,15.6 16.4,19.3 12,21.3 C7.6,19.3 4.5,15.6 4.5,10.8 Z" stroke="#16324F" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M6.1,6.9 C6.1,5.7 6.9,5.1 8.1,4.85 C9.7,4.5 14.3,4.5 15.9,4.85 C17.1,5.1 17.9,5.7 17.9,6.9 L17.9,10.5 C17.9,14.2 15.5,17.1 12,18.5 C8.5,17.1 6.1,14.2 6.1,10.5 Z" stroke="#B08D57" stroke-width="0.6" opacity="0.9"/>
+  <circle cx="12" cy="3.0" r="0.5" fill="#B08D57"/>
+  <rect x="9" y="7.6" width="6" height="6.6" rx="0.5" stroke="#16324F" stroke-width="1.05"/>
+  <polyline points="10.1,10.9 11.3,12.1 13.9,9.2" stroke="#16324F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12" cy="19.3" r="0.7" fill="none" stroke="#B08D57" stroke-width="0.5"/>
+  <path d="M11.68,19.85 L12.32,19.85 L12.55,20.75 L11.45,20.75 Z" fill="#B08D57"/>
+</svg>

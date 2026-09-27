@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none">
+  <!--
+    Bank account-type mark for the payslip PDF, v3 — same shield/ring/keystone/keyhole
+    treatment as logo-institution.svg (see that file's comment for the full reasoning and
+    version history). Navy #16324F + gold #B08D57.
+  -->
+  <path d="M4.5,6.2 C4.5,4.6 5.6,3.7 7.2,3.35 C9.3,2.75 14.7,2.75 16.8,3.35 C18.4,3.7 19.5,4.6 19.5,6.2 L19.5,10.8 C19.5,15.6 16.4,19.3 12,21.3 C7.6,19.3 4.5,15.6 4.5,10.8 Z" stroke="#16324F" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M6.1,6.9 C6.1,5.7 6.9,5.1 8.1,4.85 C9.7,4.5 14.3,4.5 15.9,4.85 C17.1,5.1 17.9,5.7 17.9,6.9 L17.9,10.5 C17.9,14.2 15.5,17.1 12,18.5 C8.5,17.1 6.1,14.2 6.1,10.5 Z" stroke="#B08D57" stroke-width="0.6" opacity="0.9"/>
+  <circle cx="12" cy="3.0" r="0.5" fill="#B08D57"/>
+  <polyline points="8.4,9.6 12,6.6 15.6,9.6" stroke="#16324F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8" y1="9.6" x2="16" y2="9.6" stroke="#16324F" stroke-width="1.05" stroke-linecap="round"/>
+  <line x1="9.6" y1="10.9" x2="9.6" y2="14.3" stroke="#16324F" stroke-width="1.05" stroke-linecap="round"/>
+  <line x1="12" y1="10.9" x2="12" y2="14.3" stroke="#16324F" stroke-width="1.05" stroke-linecap="round"/>
+  <line x1="14.4" y1="10.9" x2="14.4" y2="14.3" stroke="#16324F" stroke-width="1.05" stroke-linecap="round"/>
+  <line x1="7.8" y1="14.6" x2="16.2" y2="14.6" stroke="#16324F" stroke-width="1.05" stroke-linecap="round"/>
+  <circle cx="12" cy="19.3" r="0.7" fill="none" stroke="#B08D57" stroke-width="0.5"/>
+  <path d="M11.68,19.85 L12.32,19.85 L12.55,20.75 L11.45,20.75 Z" fill="#B08D57"/>
+</svg>

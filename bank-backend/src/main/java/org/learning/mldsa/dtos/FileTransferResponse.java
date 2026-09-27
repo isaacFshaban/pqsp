@@ -1,0 +1,29 @@
+package org.learning.mldsa.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.Instant;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class FileTransferResponse {
+    private Long transferId;
+    private String senderUsername;
+    private String receiverUsername;
+    private String originalFilename;
+    private String status;
+    private Instant sentAt;
+    private Instant downloadedAt;
+    private String fileHash;
+    private String signature;
+    private Boolean signatureValid;
+    // True when a zero-knowledge compliance proof of this payslip's net pay was attached at
+    // send time; fetch it via GET /api/v1/compliance/proof/{transferId}. Always false for
+    // raw file uploads, which never attempt proof generation.
+    private Boolean complianceProofAvailable;
+}
